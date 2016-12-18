@@ -2,3 +2,4 @@ Debug
 *.a
 .cproject
 .project
+.settings
