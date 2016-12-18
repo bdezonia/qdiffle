@@ -44,6 +44,8 @@ SOFTWARE.
 
 #include <iostream>
 #include <cstdlib>
+#include <stdexcept>
+#include <memory>
 
 #include "numerics/evaluator.hpp"
 #include "parser/point_function_parser.hpp"
