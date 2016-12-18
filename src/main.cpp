@@ -105,7 +105,7 @@ int main(int argc, char* argv[]) {
 		cout << "Estimated integral is " << (avg_eval * extents[0]) << endl;
 		double min = evaluator.minimum(function, &region);
 		double max = evaluator.maximum(function, &region);
-		cout << "(min,max) over region = (" << min << "," << max << ")";
+		cout << "(min,max) over region = (" << min << "," << max << ")" << endl;
 		delete parseResult;
 	}
 	catch (std::runtime_error& e) {
